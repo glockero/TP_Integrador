@@ -294,7 +294,6 @@ header {
   margin: auto;
   margin-top: 40px;
   max-width: 1100px;
-  height: 420px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -414,4 +413,26 @@ header {
   border-radius: 50%;
   width: 82px;
   height: 82px;
+}
+
+.boton_susc {
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px;
+  padding-right: 35px;
+}
+button {
+  background-color: #3483fa;
+  font-family: "Nunito Sans", sans-serif;
+  color: white;
+  font-size: 18px;
+  border-color: transparent;
+  text-decoration: none;
+  border-radius: 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: box-shadow 0.25s ease-out, background-color 0.2s ease-out,
+    -webkit-box-shadow 0.25s ease-out;
 }
