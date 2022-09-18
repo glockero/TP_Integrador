@@ -467,10 +467,13 @@ button {
   gap: 20px;
 }
 
-.text_aprovec_oferta{
+.text_aprovec_oferta , a{
 
   font-family: "Nunito Sans", sans-serif;
-  font-size: 15px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
 }
 
 .text_aprovec_aprovecha{
