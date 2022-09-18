@@ -445,6 +445,7 @@ button {
   margin: auto;
   margin-top: 60px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .img_aprov {
@@ -468,7 +469,6 @@ button {
 
 .text_aprovec:hover {
   width: 100%;
-  font-size: 70px;
 }
 .text_aprovec_oferta,
 a {
