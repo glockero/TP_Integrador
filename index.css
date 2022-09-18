@@ -116,7 +116,7 @@ header {
   max-width: 1100px;
   background-color: white;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 50px;
   border-radius: 5px;
 }
 
@@ -124,10 +124,12 @@ header {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 18px;
 }
 
 .data_container h3 {
   font-family: "Nunito Sans", sans-serif;
+  font-weight: 500;
 }
 
 .data_container a {
@@ -135,6 +137,7 @@ header {
   font-weight: lighter;
   text-decoration: none;
   color: blue;
+  font-size: 15px;
 }
 .icon_tarjetas {
   color: #5697fa;
@@ -170,4 +173,172 @@ header {
   align-items: center;
   gap: 10px;
   padding: 10px;
+}
+
+.ofertas {
+  display: flex;
+  max-width: 1300px;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-top: 40px;
+  padding: 40px;
+  gap: 20px;
+}
+
+.ofertas_label {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 100px;
+}
+
+.ofertas_label h3 {
+  text-align: left;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.ofertas_label span {
+  padding-left: 20px;
+  color: #5697fa;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.cards_container {
+  display: flex;
+  gap: 20px;
+}
+
+.cards {
+  width: 224px;
+  height: 330px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.cards .card_img_1 {
+  width: 224px;
+  height: 224px;
+  border-bottom: 1px solid #f1f1f1;
+  background-image: url(/imagenes/celu_card.webp);
+}
+
+.cards .card_img_2 {
+  width: 224px;
+  height: 224px;
+  border-bottom: 1px solid #f1f1f1;
+  background-image: url(/imagenes/tv_card.webp);
+}
+
+.cards .card_img_3 {
+  width: 224px;
+  height: 224px;
+  border-bottom: 1px solid #f1f1f1;
+  background-image: url(/imagenes/bici_card.webp);
+}
+
+.cards .card_img_4 {
+  width: 224px;
+  height: 224px;
+  border-bottom: 1px solid #f1f1f1;
+  background-image: url(/imagenes/aspi_card.webp);
+}
+
+.card_precio {
+  display: flex;
+  gap: 20px;
+  justify-content: start;
+  align-items: center;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.card_precio h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.descuento {
+  color: #2eb670;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+}
+
+.cuotas_sin {
+  color: #2eb670;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 12px;
+  padding-left: 15px;
+}
+
+.envios_card {
+  color: #2eb670;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+.envios_card span {
+  color: #2eb670;
+}
+
+.nivel_6 {
+  margin: auto;
+  margin-top: 40px;
+  max-width: 1100px;
+  height: 420px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.container_susc {
+  padding: 16px 24px;
+  display: flex;
+  background: linear-gradient(90deg, #a90f90 55%, #0c1a51);
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  align-items: center;
+}
+
+.suscribite {
+  flex: 1;
+}
+.container_susc h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.precio_susc {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-left: 2px solid white;
+  padding-left: 10px;
+}
+.precio_susc h4 {
+  text-decoration: line-through;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 200;
+}
+
+.precio_susc h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+}
+
+.precio_susc span {
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
 }
