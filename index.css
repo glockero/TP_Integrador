@@ -80,6 +80,7 @@ header {
 
 .opciones_header a {
   text-decoration: none;
+  color: black;
 }
 
 .btn_cart {
