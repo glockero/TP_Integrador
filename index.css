@@ -468,6 +468,10 @@ button {
   gap: 20px;
 }
 
+.text_aprovec:hover{
+width: 100%;
+z-index: 9999999;
+}
 .text_aprovec_oferta , a{
 
   font-family: "Nunito Sans", sans-serif;
