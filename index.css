@@ -18,7 +18,7 @@ header {
   top: 0px;
 }
 .header {
-  width: 80%;
+  width: 100%;
   background-color: #fff159;
   display: flex;
   justify-content: space-evenly;
