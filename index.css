@@ -344,3 +344,74 @@ header {
   font-weight: lighter;
   font-size: 18px;
 }
+
+.container_susc_1 {
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid 0.5px rgba(128, 128, 128, 0.24);
+}
+
+.container_susc_1 h3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+
+.logos_susc {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 70px;
+  padding-bottom: 25px;
+}
+
+.logos_susc h4 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: lighter;
+}
+
+.disney {
+  display: flex;
+  align-items: center;
+
+  max-width: 377px;
+  padding: 15px;
+  gap: 15px;
+}
+.disney img {
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  border-radius: 50%;
+}
+
+.star {
+  display: flex;
+  align-items: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: lighter;
+  max-width: 377px;
+  padding: 15px;
+  gap: 15px;
+}
+.star img {
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  border-radius: 50%;
+}
+
+.camion {
+  display: flex;
+  align-items: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: lighter;
+  max-width: 377px;
+  padding: 15px;
+  gap: 15px;
+}
+.camion img {
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  border-radius: 50%;
+  width: 82px;
+  height: 82px;
+}
