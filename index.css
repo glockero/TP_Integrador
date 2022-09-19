@@ -8,7 +8,7 @@ body {
   background-color: #ededed;
   font-family: "Roboto", sans-serif;
   width: 100%;
-  height: 420vh;
+  height: 620vh;
 }
 
 header {
@@ -483,18 +483,23 @@ a {
   font-weight: bold;
 }
 
-.grilla_productos {
-  width: 1100px;
-  height: 236px;
 
-  margin: auto;
+/* CONTENEDOR PARA FILA 1 DE PRODUCTOS */
+
+.grilla_productos {
+
+  margin: 0 auto;
   margin-top: 60px;
   display: flex;
   gap: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
 }
 
 .note {
-  width: 50%;
+  width: 540px;
   height: 100%;
   background-color: white;
   border-radius: 10px;
@@ -525,26 +530,26 @@ a {
 }
 
 .impre {
-  width: 50%;
+  width: 540px;
   height: 100%;
   background-color: white;
   border-radius: 10px;
   padding: 25px 0px 25px 25px;
 }
 
-.grilla_productos_5 {
-  width: 1100px;
-  height: 236px;
-  margin: auto;
+/* CONTENEDOR PARA FILA 2 DE PRODUCTOS */
+
+.grilla_1 {
   margin-top: 20px;
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-.tablet {
+.producto {
   width: 184px;
-  height: 100%;
+ 
   background-color: white;
   border-radius: 10px;
   padding: 10px;
@@ -553,38 +558,37 @@ a {
   align-content: space-between;
 }
 
-.tablet_contenedor {
+.producto_contenedor {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 100%;
 }
-.tablet_contenedor img {
+.producto_contenedor img {
   width: 62%;
 }
 
-.tex_tablet_contenedor {
+.tex_producto_contenedor {
   display: flex;
   gap: 20px;
   flex-direction: column;
   align-items: center;
 }
 
-.tex_tablet_contenedor h3 {
+.tex_producto_contenedor h3 {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 500;
   font-size: 20px;
 }
 
-.tex_tablet_contenedor h4 {
+.tex_producto_contenedor h4 {
   color: #3483fa;
   font-weight: 500;
 }
 
-.medio {
+.producto_2x {
   width: 300px;
-  height: 100%;
   background-color: white;
   border-radius: 10px;
   padding: 20px;
@@ -597,7 +601,7 @@ a {
   justify-content: end;
 }
 
-.tex_medio_contenedor {
+.tex_producto_2x_contenedor {
   background-color: rgba(255, 255, 255, 0.897);
   display: flex;
   gap: 20px;
@@ -608,94 +612,59 @@ a {
   padding: 15px;
 }
 
-.tex_medio_contenedor h3 {
+.tex_producto_2x_contenedor h3 {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 500;
   font-size: 20px;
 }
 
-.tex_medio_contenedor h4 {
+.tex_producto_2x_contenedor h4 {
   color: #3483fa;
   font-weight: 500;
 }
 
-.medio1 {
-  width: 300px;
-  height: 100%;
-  background-color: white;
-  border-radius: 10px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
-  background-image: url(/imagenes/disco.webp);
-  background-size: cover;
-  background-position: center;
-  justify-content: end;
+
+.producto_2x_1 {
+  
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    background-image: url(/imagenes/disco.webp);
+    background-size: cover;
+    background-position: center;
+    justify-content: end;
+  
 }
 
-.tex_medio1_contenedor h3 {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-}
-
-.tex_medio1_contenedor h4 {
-  color: #3483fa;
-  font-weight: 500;
-}
-
-.tex_medio1_contenedor {
-  background-color: rgba(255, 255, 255, 0.781);
+.tex_producto_2x_contenedor_1 {
+  background-color: rgba(255, 255, 255, 0.897);
   display: flex;
   gap: 20px;
   flex-direction: column;
   align-items: center;
-  width: 65%;
   border-radius: 5px;
-  padding: 15px;
+  padding: 10px;
+  width: fit-content;
 }
 
-.medio2 {
-  width: 582px;
-  height: 100%;
-  background-color: white;
-  border-radius: 10px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
-  background-image: url(/imagenes/conec.webp);
-  background-size: cover;
-  background-position: center;
-  justify-content: end;
-}
-
-.tex_medio2_contenedor h3 {
+.tex_producto_2x_contenedor_1 h3 {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 500;
   font-size: 20px;
 }
 
-.tex_medio2_contenedor h4 {
+.tex_producto_2x_contenedor_1 h4 {
   color: #3483fa;
   font-weight: 500;
 }
 
-.tex_medio2_contenedor {
-  background-color: rgba(255, 255, 255, 0.781);
-  display: flex;
-  gap: 20px;
-  flex-direction: column;
-  align-items: center;
-  width: 35%;
-  border-radius: 5px;
-  padding: 15px;
-}
 
 .ups {
   width: 300px;
-  height: 100%;
   background-color: white;
   border-radius: 10px;
   padding: 10px;
@@ -730,4 +699,20 @@ a {
 .tex_ups_contenedor h4 {
   color: #3483fa;
   font-weight: 500;
+}
+
+
+.ups_2x {
+  width: 582px;
+  height: 187px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  background-image: url(/imagenes/conec.webp);
+  background-size: cover;
+  background-position: center;
+  justify-content: end;
 }
