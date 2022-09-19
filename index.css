@@ -440,20 +440,23 @@ button {
 
 .aprovecha {
   max-width: 1100px;
-  height: 244px;
+  max-height: 250px;
   background-color: white;
   margin: auto;
   margin-top: 60px;
   display: flex;
+
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .img_aprov {
   width: 60%;
+}
+
+.img_aprov img {
+  width: 100%;
   height: 100%;
-  background-image: url(/aprovecha.jpg);
-  background-size: cover;
-  background-position: center;
 }
 .text_aprovec {
   display: flex;
@@ -464,12 +467,8 @@ button {
   color: white;
   width: 40%;
   gap: 20px;
-  transition: 0.5s;
 }
 
-.text_aprovec:hover {
-  width: 100%;
-}
 .text_aprovec_oferta,
 a {
   font-family: "Nunito Sans", sans-serif;
@@ -481,6 +480,6 @@ a {
 
 .text_aprovec_aprovecha {
   font-family: "Nunito Sans", sans-serif;
-  font-size: 25px;
+  font-size: 2rem;
   font-weight: bold;
 }
