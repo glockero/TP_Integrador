@@ -727,15 +727,17 @@ a {
   border: solid 1px red;
   display: flex;
   justify-content: center;
+  
 }
 .categoria_popular{
-
+  align-items: center;
   width: 1080px;
   border: solid 1px red;
 }
 
-.ofertas_label_1 {s
-  padding-top: 10px;
+.ofertas_label_1 {
+  align-items: center;
+  padding-top: 30px;
   padding-bottom: 30px;
 }
 
