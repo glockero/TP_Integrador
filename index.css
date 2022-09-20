@@ -812,3 +812,15 @@ justify-content: center;
   padding-left: 10px;
   padding-right: 10px;
 }
+
+.caja_icono:hover  {
+  background-color:  #5697fa;
+  color: white;
+
+}
+
+.caja_icono:hover  i {
+  background-color:  #5697fa;
+  color: white;
+
+}
