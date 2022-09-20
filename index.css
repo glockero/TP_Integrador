@@ -188,8 +188,13 @@ header {
 }
 
 
+.container{
+  display: flex;
+  justify-content: center;
+}
 
 .cards_container {
+  width: 1100PX;
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
@@ -231,6 +236,35 @@ header {
   border-bottom: 1px solid #f1f1f1;
   background-image: url(/imagenes/aspi_card.webp);
 }
+
+.cards .card_img_5 {
+  width: 224px;
+  height: 224px;
+  border-bottom: 1px solid #f1f1f1;
+  background-image: url(/imagenes/moto_cel.webp);
+}
+
+.cards .card_img_6 {
+  width: 224px;
+  height: 224px;
+  border-bottom: 1px solid #f1f1f1;
+  background-image: url(/imagenes/caja_he.webp);
+}
+
+.cards .card_img_7 {
+  width: 224px;
+  height: 224px;
+  border-bottom: 1px solid #f1f1f1;
+  background-image: url(/imagenes/xbox.webp);
+}
+
+.cards .card_img_8 {
+  width: 224px;
+  height: 224px;
+  border-bottom: 1px solid #f1f1f1;
+  background-image: url(/imagenes/micro.webp);
+}
+
 
 .card_precio {
   display: flex;
