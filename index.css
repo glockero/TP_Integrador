@@ -723,11 +723,20 @@ a {
 }
 
 
-.ofertas_label_1 {
-  width: 100%;
+.test1{
+  border: solid 1px red;
+  display: flex;
+  justify-content: center;
+}
+.categoria_popular{
+
+  width: 1080px;
+  border: solid 1px red;
+}
+
+.ofertas_label_1 {s
   padding-top: 10px;
   padding-bottom: 30px;
-  padding-left: 150px;
 }
 
 .ofertas_label_1 h3 {
