@@ -721,3 +721,25 @@ a {
   background-position: center;
   justify-content: end;
 }
+
+
+.ofertas_label_1 {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 150px;
+}
+
+.ofertas_label_1 h3 {
+  text-align: left;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.ofertas_label_1 span {
+  padding-left: 20px;
+  color: #5697fa;
+  font-size: 15px;
+  font-weight: 600;
+}
