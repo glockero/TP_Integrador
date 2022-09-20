@@ -665,7 +665,7 @@ a {
 
 
 .ups {
-  width: 23.5vw;
+  width: 300px;
   min-width: 186px;
   background-color: white;
   border-radius: 10px;
@@ -707,7 +707,7 @@ a {
 
 
 .ups_2x {
-  width: 45.5vw;
+  width: 580px;
   min-width: 186px;
   height: 187px;
   background-color: white;
