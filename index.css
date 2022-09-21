@@ -2,13 +2,14 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  
 }
 
 body {
   background-color: #ededed;
   font-family: "Roboto", sans-serif;
   width: 100%;
-  height: 620vh;
+  height: 1020vh;
 }
 
 header {
@@ -18,13 +19,14 @@ header {
   top: 0px;
 }
 .header {
-  width: 100%;
+  max-width: 100%;
   background-color: #fff159;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
+  gap: 20px;
 }
 .logo_meli {
   height: 60px;
@@ -33,7 +35,7 @@ header {
 
 .buscar {
   padding: 5px;
-  width: 600px;
+  width: 30%;
   background-color: white;
   outline: none;
   border: 0.5px solid silver;
@@ -119,6 +121,7 @@ header {
   margin: auto;
   margin-top: 50px;
   border-radius: 5px;
+  
 }
 
 .data_container {
@@ -127,6 +130,9 @@ header {
   flex-wrap: wrap;
   gap: 18px;
 }
+
+
+
 
 .data_container h3 {
   font-family: "Nunito Sans", sans-serif;
@@ -316,6 +322,8 @@ header {
   flex-direction: column;
   border-radius: 10px;
 }
+
+
 
 .container_susc {
   padding: 16px 24px;
@@ -741,12 +749,13 @@ a {
 .test1{
   
   display: flex;
-  justify-content: center;
+  max-width: 1100px;
+  margin: auto;
   
 }
 .categoria_popular{
   align-items: center;
-  width: 1080px;
+  max-width: 1080px;
   
 }
 
@@ -754,6 +763,7 @@ a {
   align-items: center;
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 30px;
 }
 
 .ofertas_label_1 h3 {
@@ -771,16 +781,56 @@ a {
 }
 
 
+
+.test2{
+  
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 20px;
+  
+}
+.categoria_popular{
+  align-items: center;
+  max-width: 1080px;
+  
+}
+
+.ofertas_label_2 {
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.ofertas_label_2 h3 {
+  text-align: left;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+.ofertas_label_2 span {
+  padding-left: 20px;
+  color: #5697fa;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+
 .contenedor_grupos_iconos{
 
-margin-top: 100px;
+max-width: 1100PX;
+margin: auto;
+margin-top: 50px;
 display: flex;
 justify-content: center;
+flex-direction: column;
 }
 
 .grupos_iconos{
   display: flex;
-  width: 1100px;
+  max-width: 1100px;
   gap: 1px;
   flex-wrap: wrap;
   justify-content: center;
@@ -822,5 +872,216 @@ justify-content: center;
 .caja_icono:hover  i {
   background-color:  #5697fa;
   color: white;
+
+}
+
+
+/* COMIENZO DE LOS MEDIAS */
+
+
+
+@media screen and (max-width:480px) {
+
+.hero {
+display: none;
+}
+
+
+.logo_meli {
+display: none;
+}
+
+.aprovecha {
+  max-width: 1100px;
+  max-height: 250px;
+  background-color: white;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.img_aprov {
+  display: none;
+}
+
+.img_aprov img {
+  display: none;
+}
+.text_aprovec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  background-color: black;
+  color: white;
+  width: 100%;
+
+  gap: 20px;
+}
+
+.text_aprovec_oferta,
+a {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
+
+.text_aprovec_aprovecha {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.data_container {
+  display: flex;
+  max-width: 1100px;
+  background-color: white;
+  margin-top: 50px;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  gap: 18px;
+  justify-content:start;
+  padding-left: 30px;
+}
+
+.nivel_6 {
+  margin: auto;
+  margin-top: 40px;
+  max-width: 80%;
+  
+}
+
+.boton_susc {
+
+  justify-content: center;
+  
+}
+
+.test1{
+  
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+  justify-content: center;
+  
+}
+
+.test2{
+  
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 20px;
+  justify-content: center;
+  
+}
+
+.ups_2x {
+  width: 90%;
+  
+}
+  
+
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #fff159;
+  top: 0px;
+}
+.header {
+  max-width: 100%;
+  background-color: #fff159;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  gap: 20px;
+}
+.logo_meli {
+  height: 60px;
+  padding: 10px;
+}
+
+.buscar {
+  padding: 10px;
+  width: 80%;
+  background-color: white;
+  outline: none;
+  border: 0.5px solid silver;
+  border-radius: 0px;
+  transition: all 0.6s ease;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.buscar input {
+  width: 70%;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 18px;
+  color: #333;
+  display: flex;
+  align-content: center;
+  outline: none;
+  border: none;
+  flex: 1;
+}
+
+::placeholder {
+  opacity: 0.3;
+}
+
+.btn {
+  width: 55px;
+  height: 90%;
+  text-align: center;
+  color: grey;
+  font-size: 18px;
+  cursor: pointer;
+  border-left: solid 0.5px rgba(0, 0, 0, 0.075);
+}
+
+.opciones_header {
+  display: flex;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: lighter;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.opciones_header a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn_cart {
+  width: 55px;
+  height: 90%;
+  text-align: center;
+  color: grey;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.data_container {
+ 
+  margin-top: 150px;
+
+}
+
+
+
+
+
+
+
 
 }
