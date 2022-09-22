@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: lighter;
+    
+}
+
+body{
+    background-image: url(/mercado-libre-logo.jpeg);
+    background-size: cover;
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 100vh;
+
+   
+}
+
+::placeholder {
+    opacity: 0.3;
+  }
+  
+.contenedor{
+    max-height: 400px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.445);
+    max-width:500px ;
+}
+.formulario{
+    max-width: 500px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    border: 0.5px solid rgba(128, 128, 128, 0.274);
+}
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+    background-color: #fff;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+    background-color: #fff;
+}
+
+.contenedor_boton{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    padding: 10px;
+}
+.boton{
+    border: none;
+    width: 70%;
+    color: white;
+    font-size: 15px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.boton:hover{
+    background: #3483FA;
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+      color: #1a2537;
+    font-weight: 600;
+}
+.link:hover{
+     color: cadetblue;
+}
+/* @media(min-width:768px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
