@@ -31,7 +31,7 @@ body{
     max-width:500px ;
 }
 .formulario{
-    max-width: 500px;
+    max-width: 400px;
     background: #fff;
     padding: 30px;
     border-radius: 10px;
@@ -57,9 +57,11 @@ input[type="email"]{
     outline: none;
 }
 .input-contenedor{
+    margin-top: 10px;
     margin-bottom: 15px;
     border: 1px solid #aaa;
     background-color: #fff;
+    border-radius: 5px;
 }
 .icon{
     min-width: 50px;
@@ -76,7 +78,7 @@ input[type="email"]{
     gap: 20px;
 }
 .icono_login{
-    font-size: 2rem;
+    font-size: 30px;
 }
 .contenedor_boton{
     display: flex;
@@ -110,27 +112,72 @@ p{
      color: cadetblue;
 }
 
+.home{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 8px;
+    padding: 5px;
+    justify-content: center;
+    background-color: #3483fa8a;
+    color: white;
+    border-radius: 10px;
+    font-size: 10px;
+}
+
+.home a{
+    text-decoration: none;
+    color: white;
+
+}
 
 
 
 
 
 
+@media screen and (max-width:480px) {
+
+   
+    .formulario{
+        width: 90%;
+     
+    
+    }
 
 
 
+    .contenedor{
+        max-height: 400px;
+        padding: 15px;
+        background-color: rgba(255, 255, 255, 0.445);
+        width:90%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"]{
+        font-size: 15px;
+        width: 72%;}
+
+    h1{
+    
+        font-size: 20px;
+       
+    }
+
+    .icono_login{
+        font-size: 20px;
+    }
 
 
 
-
-
-
-
-
-
-
-
-
+}
 
 
 
