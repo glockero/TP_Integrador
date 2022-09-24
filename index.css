@@ -844,7 +844,7 @@ a {
   color: white;
 }
 
-/* COMIENZO DE LOS MEDIAS */
+
 
 .footer {
   margin: auto;
@@ -854,6 +854,7 @@ a {
   width: 1100px;
   background-color: white;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 
 .footer_opciones {
@@ -898,6 +899,8 @@ a {
   justify-content: center;
   border-top: 1px solid rgba(0, 0, 0, 0.103);
 }
+
+/* COMIENZO DE LOS MEDIAS */
 
 @media screen and (max-width: 480px) {
   .hero {
