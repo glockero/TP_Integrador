@@ -536,9 +536,9 @@ a {
   padding-left: 40px;
 }
 
-.tex_note_contenedor h3 {
+.tex_note_contenedor p {
   font-family: "Nunito Sans", sans-serif;
-  font-weight: 500;
+  font-weight: lighter;
   font-size: 33px;
 }
 
